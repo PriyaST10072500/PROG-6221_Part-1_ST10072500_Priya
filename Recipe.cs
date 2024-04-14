@@ -158,6 +158,20 @@ namespace PROG_6221_Part_1_ST10072500_Priya
         }
 
 
+        //Resets the Quantities
+        public void QuantitiesToBeReset()
+        {
+            for (int i = 0; i < ingredients.Count; i++)
+            {
+                Ingredient ingredient = (Ingredient)ingredients[i];
+                double originalQuantity = (double)originalQuantities[i];
+                ingredient.Quantity = originalQuantity;
+            }
+
+            Console.WriteLine(" Quantities reset successfully!");
+            Console.WriteLine("------------------------------------------");
+        }
+
 
 
     }
