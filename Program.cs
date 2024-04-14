@@ -11,7 +11,10 @@
             Console.ForegroundColor = ConsoleColor.White;
             Console.Clear();
 
-
+            //Displays the Welcome Message
+            Console.WriteLine("------------------------------------------");
+            Console.WriteLine(" Welcome to the Recipe Application! ");
+            Console.WriteLine("------------------------------------------");
 
 
 
