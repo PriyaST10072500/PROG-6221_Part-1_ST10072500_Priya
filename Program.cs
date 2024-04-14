@@ -66,5 +66,14 @@
     }
 
 }
-    
+
+
+//References 
+//https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/selection-statements
+//https://www.geeksforgeeks.org/c-sharp-how-to-change-foreground-color-of-text-in-console/
+//https://stackoverflow.com/questions/14792066/change-background-color-on-c-sharp-console-application
+//https://www.webstaurantstore.com/guide/582/measurements-and-conversions-guide.html
+//https://www.geeksforgeeks.org/console-clear-method-in-c-sharp/
+//https://www.geeksforgeeks.org/scale-factor/
+//https://stackoverflow.com/questions/52337184/c-getting-user-value-and-resetting-it
 
