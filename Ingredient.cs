@@ -19,6 +19,7 @@ namespace PROG_6221_Part_1_ST10072500_Priya
         public string Unit { get; set; }
 
         
+        //Parameterised Constructor for Dependencies 
         public Ingredient(string name, double quantity, string unit)
         {
             Name = name;

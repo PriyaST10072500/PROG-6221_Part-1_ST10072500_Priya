@@ -29,6 +29,92 @@ namespace PROG_6221_Part_1_ST10072500_Priya
 
 
 
+        //User Inputs the Recipe Details 
+        public void InputRecipeDetails()
+        {
+            Console.WriteLine("\n Enter The Details For A Single Recipe");
+            Console.WriteLine("------------------------------------------");
+            Console.Write(" Number of Ingredients: ");
+            int numIngredients;
+            while (!int.TryParse(Console.ReadLine(), out numIngredients) || numIngredients <= 0)
+            {
+                Console.WriteLine(" Invalid Number! Please try again.");
+                Console.Write(" Number of Ingredients: ");
+            }
+
+            for (int i = 0; i < numIngredients; i++)
+            {
+                Console.WriteLine("------------------------------------------");
+                Console.WriteLine($"\n Ingredient {i + 1}:");
+                Console.Write(" Name: ");
+                string name = Console.ReadLine();
+
+                Console.Write(" Quantity: ");
+                double quantity;
+                while (!double.TryParse(Console.ReadLine(), out quantity) || quantity <= 0)
+                {
+                    Console.WriteLine(" Invalid Quantity! Please try again.");
+                    Console.Write(" Quantity: ");
+                }
+
+                Console.WriteLine("\n Select unit of measurement:");
+                Console.WriteLine(" 1 - tsp (teaspoon)");
+                Console.WriteLine(" 2 - tbsp (tablespoon)");
+                Console.WriteLine(" 3 - C (cups)");
+                Console.WriteLine(" 4 - ml (milliliter)");
+                Console.WriteLine(" 5 - kg (kilogram)");
+                Console.Write(" Enter option: ");
+                string unit = "";
+                switch (Console.ReadLine())
+                {
+                    case "1":
+                        unit = "tsp (teaspoon)";
+                        break;
+                    case "2":
+                        unit = "tbsp (tablespoon)";
+                        break;
+                    case "3":
+                        unit = "C (cups)";
+                        break;
+                    case "4":
+                        unit = "ml (milliliter)";
+                        break;
+                    case "5":
+                        unit = "kg (kilogram)";
+                        break;
+                    default:
+                        Console.WriteLine(" Invalid Option! \n Please select another option.");
+                        break;
+                }
+
+
+                Ingredient ingredient = new Ingredient(name, quantity, unit);
+                ingredients.Add(ingredient);
+                originalQuantities.Add(quantity);
+            }
+
+            Console.WriteLine("------------------------------------------");
+            Console.Write("\n Number of Steps: ");
+            int numSteps;
+            while (!int.TryParse(Console.ReadLine(), out numSteps) || numSteps <= 0)
+            {
+                Console.WriteLine(" Invalid Number! Please try again.");
+                Console.Write(" Number of Steps: ");
+            }
+
+            for (int i = 0; i < numSteps; i++)
+            {
+                Console.WriteLine("------------------------------------------");
+                Console.WriteLine($"\n Step {i + 1}:");
+                Console.Write(" Description: ");
+                string step = Console.ReadLine();
+                steps.Add(step);
+            }
+            Console.WriteLine("------------------------------------------");
+            Console.WriteLine("\n Recipe details entered successfully!");
+            Console.WriteLine("------------------------------------------");
+        }
+
 
 
 
