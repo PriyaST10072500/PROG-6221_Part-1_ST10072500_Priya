@@ -28,7 +28,6 @@ namespace PROG_6221_Part_1_ST10072500_Priya
         }
 
 
-
         //User Inputs the Recipe Details 
         public void InputRecipeDetails()
         {
@@ -114,6 +113,30 @@ namespace PROG_6221_Part_1_ST10072500_Priya
             Console.WriteLine("\n Recipe details entered successfully!");
             Console.WriteLine("------------------------------------------");
         }
+
+
+        //Displays the Recipe Details
+        public void RecipeToBeDisplayed()
+        {
+            Console.WriteLine("\n Recipe Display");
+            Console.WriteLine("------------------------------------------");
+            Console.WriteLine(" Ingredients:");
+            for (int i = 0; i < ingredients.Count; i++)
+            {
+                Ingredient ingredient = (Ingredient)ingredients[i];
+                Console.WriteLine($" - {ingredient.Quantity} {ingredient.Unit} of {ingredient.Name}");
+            }
+
+            Console.WriteLine("------------------------------------------");
+            Console.WriteLine(" Steps:");
+            for (int i = 0; i < steps.Count; i++)
+            {
+                Console.WriteLine($" {i + 1}. {steps[i]}");
+            }
+            Console.WriteLine("------------------------------------------");
+        }
+
+
 
 
 
