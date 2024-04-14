@@ -4,7 +4,18 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //Displays the Background Colour in Console
+            Console.BackgroundColor = ConsoleColor.Magenta;
+
+            //Displays the Text Colour in Console
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Clear();
+
+
+
+
+
+
         }
     }
 }
