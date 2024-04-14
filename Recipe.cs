@@ -173,6 +173,29 @@ namespace PROG_6221_Part_1_ST10072500_Priya
         }
 
 
+        //Clears the Data 
+        public void DataToBeCleared()
+        {
+
+            Console.Write("\n Do you want to clear all the data? \n (yes/no): ");
+            string response = Console.ReadLine().ToLower();
+
+            if (response == "yes")
+            {
+                ingredients.Clear();
+                steps.Clear();
+                originalQuantities.Clear();
+                Console.WriteLine("------------------------------------------");
+                Console.WriteLine(" Data cleared successfully!");
+                Console.WriteLine("------------------------------------------");
+            }
+            else
+            {
+                Console.WriteLine("------------------------------------------");
+                Console.WriteLine(" Data not cleared!");
+                Console.WriteLine("------------------------------------------");
+            }
+        }
 
     }
 }
