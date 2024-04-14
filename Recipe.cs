@@ -137,6 +137,25 @@ namespace PROG_6221_Part_1_ST10072500_Priya
         }
 
 
+        //Scales the Recipe
+        public void RecipeToBeScaled()
+        {
+            Console.Write("\n Enter a scaling factor (0,5; 2; or 3): ");
+            double factor;
+            while (!double.TryParse(Console.ReadLine(), out factor) || (factor != 0.5 && factor != 2 && factor != 3))
+            {
+                Console.WriteLine(" Invalid Factor! Please select another option 0,5; 2; or 3");
+                Console.Write(" Enter a scaling factor: ");
+            }
+
+            foreach (Ingredient ingredient in ingredients)
+            {
+                ingredient.Quantity *= factor;
+            }
+            Console.WriteLine("------------------------------------------");
+            Console.WriteLine(" Recipe scaled successfully!");
+            Console.WriteLine("------------------------------------------");
+        }
 
 
 
