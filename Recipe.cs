@@ -127,14 +127,14 @@ namespace PROG_6221_Part_1_ST10072500_Priya
             for (int i = 0; i < ingredients.Count; i++)
             {
                 Ingredient ingredient = (Ingredient)ingredients[i];
-                Console.WriteLine($" - {ingredient.Quantity} {ingredient.Unit} of {ingredient.Name}");
+                Console.WriteLine($" {i + 1}) {ingredient.Quantity} {ingredient.Unit} of {ingredient.Name}");
             }
 
             Console.WriteLine("------------------------------------------");
             Console.WriteLine(" Steps:");
             for (int i = 0; i < steps.Count; i++)
             {
-                Console.WriteLine($" {i + 1}. {steps[i]}");
+                Console.WriteLine($" {i + 1}) {steps[i]}");
             }
             Console.WriteLine("------------------------------------------");
         }
