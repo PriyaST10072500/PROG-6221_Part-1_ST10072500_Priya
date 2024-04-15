@@ -9,7 +9,7 @@ Welcome to the Recipe Application!
 - [Usage](#usage)
 - [Contribution](#contribution)
 - [Licenses](#licenses)
-- [# My GitHub Repository Link:](# My_GitHub_Repository_Link:)
+- [My GitHub Repository Link](#My_GitHub_Repository_Link)
 
 
 # About
@@ -34,7 +34,7 @@ Option 5: Clear Data - Clear all entered recipe data from the application.
 Option 6: Exit - Close the Recipe Application.
 
 
-# Installing
+# Installation
 •	To install Visual Studio, visit the official Visual Studio website or download it from the Microsoft website.
 •	Follow the instructions provided on the website to download and install Visual Studio on your system.
 •	Once installed, launch Visual Studio and create a new C# console application project to start coding.
@@ -42,10 +42,10 @@ Option 6: Exit - Close the Recipe Application.
 
 
 # Usage
-1.	To run the Recipe Application locally on your computer:
-2.	Download or clone the project repository from GitHub to your local machine.
-3.	Open the solution file in Visual Studio.
-4.	Build and run the application.
+To run the Recipe Application locally on your computer:
+1.	Download or clone the project repository from GitHub to your local machine.
+2.	Open the solution file in Visual Studio.
+3.	Build and run the application.
 
 To access the code on GitHub:
 •	Visit the GitHub repository for the Recipe Application.
@@ -62,7 +62,7 @@ The Recipe Application was developed by a student named Priya Boodhoo. Furthermo
 The Recipe Application is released under the MIT License.
 
 
-# My GitHub Repository Link:
+# My GitHub Repository Link
 https://github.com/PriyaST10072500/PROG-6221_Part-1_ST10072500_Priya.git
 
 
