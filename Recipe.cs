@@ -33,6 +33,9 @@ namespace PROG_6221_Part_1_ST10072500_Priya
         {
             Console.WriteLine("\n Enter The Details For A Single Recipe");
             Console.WriteLine("------------------------------------------");
+            Console.Write(" Name of Recipe: ");
+            Console.ReadLine();
+            Console.WriteLine("------------------------------------------");
             Console.Write(" Number of Ingredients: ");
             int numIngredients;
             while (!int.TryParse(Console.ReadLine(), out numIngredients) || numIngredients <= 0)
