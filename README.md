@@ -33,6 +33,7 @@ The Recipe Application addresses the common challenge of managing recipes effici
 
 
 # Sprint 2
+All aspects were met for Prog, Part 1 of the POE.
 In Sprint 2, several enhancements and new features were added to the Recipe Application to improve its functionality and user experience. These changes include:
 - **Original Quantity Storage:** Added a feature to store the original quantity of ingredients, allowing users to reset ingredient quantities to their initial values after scaling.
 - **Enhanced Ingredient Input:** Improved the input process for ingredients by adding validations and detailed prompts for entering ingredient details, including name, quantity, unit of measurement, calories, and food group.
