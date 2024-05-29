@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PROG 6221_Part 1_ST10072500_Priya", "PROG 6221_Part 1_ST10072500_Priya.csproj", "{277858AB-F591-4EBE-A640-2FF24B277D3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PROG 6221_Part 1_ST10072500_Priya", "PROG 6221_Part 1_ST10072500_Priya.csproj", "{277858AB-F591-4EBE-A640-2FF24B277D3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog 6221_Part 2_UnitTests", "..\Prog 6221_Part 2_UnitTests\Prog 6221_Part 2_UnitTests.csproj", "{3B9CCBE3-DBA8-469F-AD73-CCE5AFADE707}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{277858AB-F591-4EBE-A640-2FF24B277D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{277858AB-F591-4EBE-A640-2FF24B277D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{277858AB-F591-4EBE-A640-2FF24B277D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B9CCBE3-DBA8-469F-AD73-CCE5AFADE707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9CCBE3-DBA8-469F-AD73-CCE5AFADE707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9CCBE3-DBA8-469F-AD73-CCE5AFADE707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9CCBE3-DBA8-469F-AD73-CCE5AFADE707}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
