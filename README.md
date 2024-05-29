@@ -61,10 +61,10 @@ To interact with the core features of the application, follow the on-screen prom
 
 
 # Installation
-- **•**	To install Visual Studio, visit the official Visual Studio website or download it from the Microsoft website.
-- **•**	Follow the instructions provided on the website to download and install Visual Studio on your system.
-- **•**	Once installed, launch Visual Studio and create a new C# console application project to start coding.
-- **•**	To create your own GitHub account, visit the GitHub website and follow the on-screen instructions to sign up.
+**•**	To install Visual Studio, visit the official Visual Studio website or download it from the Microsoft website.
+**•**	Follow the instructions provided on the website to download and install Visual Studio on your system.
+**•**	Once installed, launch Visual Studio and create a new C# console application project to start coding.
+**•**	To create your own GitHub account, visit the GitHub website and follow the on-screen instructions to sign up.
 
 
 # Usage
@@ -74,10 +74,10 @@ To run the Recipe Application locally on your computer:
 3.	Build and run the application.
 
 To access the code on GitHub:
-- **•**	Visit the GitHub repository for the Recipe Application.
-- **•** The GitHub repository is https://github.com/PriyaST10072500/PROG-6221_Part-1_ST10072500_Priya.git
-- **•** Click on the "Code" button to view the repository. 
-- **•**	You can either download the code as a ZIP file or clone the repository using Git.
+**•**	Visit the GitHub repository for the Recipe Application.
+**•** The GitHub repository is https://github.com/PriyaST10072500/PROG-6221_Part-1_ST10072500_Priya.git
+**•** Click on the "Code" button to view the repository. 
+**•**	You can either download the code as a ZIP file or clone the repository using Git.
 
 
 # Contribution
