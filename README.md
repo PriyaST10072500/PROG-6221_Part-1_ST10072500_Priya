@@ -15,9 +15,9 @@ Welcome to the Recipe Application!
 
 
 # About
-Welcome to the Recipe Application! This console-based application aims to simplify the process of managing and scaling recipes. Whether you're a seasoned chef or a novice cook, this application provides a convenient way to enter, display, scale, reset, and clear recipe details. With intuitive menus and prompts, users can effortlessly input ingredients, quantities, and steps for their recipes, view them in a structured format, scale them up or down as needed, and reset quantities when necessary.
+Welcome to the Recipe App! This console-based application seeks to make it easier to manage and scale recipes. Whether you're an experienced chef or an aspiring cook, this software makes it easy to enter, display, scale, reset, and clear recipe information. With simple menus and prompts, users can easily enter ingredients, quantities, and steps for their recipes, view them in an organized format, scale them up or down as needed, and reset quantities.
 
-The Recipe Application addresses the common challenge of managing recipes efficiently. In the bustling world of cooking, keeping track of ingredients, quantities, and steps across multiple recipes can be overwhelming. This application streamlines the process by providing a structured interface where users can input, view, and manipulate recipe details with ease. Whether you're adjusting quantities for a larger meal or starting from scratch with a new recipe, the Recipe Application simplifies the task, making cooking more enjoyable and less stressful.
+The Recipe Application addresses the frequent challenge of managing recipes efficiently. In the fast-paced world of cooking, keeping track of ingredients, quantities, and steps across multiple recipes can be daunting. This program streamlines the process by offering a structured interface that allows users to easily input, view, and change recipe details. Whether you're adjusting quantities for a larger meal or starting fresh with a new recipe, the Recipe Application simplifies the process, making cooking less stressful and enjoyable.
 
 
 # Features
@@ -62,10 +62,10 @@ To interact with the core features of the application, follow the on-screen prom
 
 
 # Installation
-**•**	To install Visual Studio, visit the official Visual Studio website or download it from the Microsoft website.
-**•**	Follow the instructions provided on the website to download and install Visual Studio on your system.
-**•**	Once installed, launch Visual Studio and create a new C# console application project to start coding.
-**•**	To create your own GitHub account, visit the GitHub website and follow the on-screen instructions to sign up.
+- To install Visual Studio, visit the official Visual Studio website or download it from the Microsoft website.
+-	Follow the instructions provided on the website to download and install Visual Studio on your system.
+-	Once installed, launch Visual Studio and create a new C# console application project to start coding.
+-	To create your own GitHub account, visit the GitHub website and follow the on-screen instructions to sign up.
 
 
 # Usage
@@ -75,10 +75,10 @@ To run the Recipe Application locally on your computer:
 3.	Build and run the application.
 
 To access the code on GitHub:
-**•**	Visit the GitHub repository for the Recipe Application.
-**•** The GitHub repository is https://github.com/PriyaST10072500/PROG-6221_Part-1_ST10072500_Priya.git
-**•** Click on the "Code" button to view the repository. 
-**•**	You can either download the code as a ZIP file or clone the repository using Git.
+-	Visit the GitHub repository for the Recipe Application.
+- The GitHub repository is https://github.com/PriyaST10072500/PROG-6221_Part-1_ST10072500_Priya.git
+- Click on the "Code" button to view the repository. 
+-	You can either download the code as a ZIP file or clone the repository using Git.
 
 
 # Contribution
